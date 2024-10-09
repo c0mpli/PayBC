@@ -1,0 +1,73 @@
+
+.Card{
+    background-color: transparent;
+    width: 70%;
+    height: 90vh;
+    margin: auto;
+    margin-top: 3%;
+    color:white;
+    border-color: none;
+    border: none;
+    box-shadow: rgba(152, 65, 252, 0.58) 8px 8px 30px -5px;
+}
+.Amount-style{
+    font-size: 56px;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+.Select{
+    display: flex;
+    justify-content: center;
+    margin-top:2%;
+}
+
+
+.card {
+    width: 250px;
+    height: 254px;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    background-image: linear-gradient(144deg,#af40ff99, #7a6ae0ae 50%,#00dbeba6);
+  }
+  
+  .card__content {
+    background: rgb(5, 6, 45);
+    border-radius: 17px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .display-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+  }
+
+  .block-align{
+    margin:40px;
+  }
+
+  .amount{
+    display: flex;
+    justify-content: center;
+    font-size: 54px;
+    margin-top: 2%;
+  }
+  .trans{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .select-box{
+    background-color: transparent;
+    width:30%;
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    border-radius: 10px;
+    padding: 8px;
+    box-shadow: rgba(152, 65, 252, 0.1) 0 15px 30px -5px
+  }

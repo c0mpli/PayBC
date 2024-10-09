@@ -1,0 +1,39 @@
+.right-anon-part{
+    margin:auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.text-style-u{
+    font-size: 28px;
+    margin-left: 30px;
+    font-weight: 300;
+}
+
+.text-style-l{
+    font-size: 55px;
+    margin-left: 30px;
+    font-weight: 500;
+}
+
+.Readmore{
+  margin-top: 30px;
+}
+
+.text2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.text-globe {
+    font-family: 'Inter', sans-serif;
+    width: 80%;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+

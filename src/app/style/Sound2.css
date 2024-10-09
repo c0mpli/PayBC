@@ -1,0 +1,138 @@
+.leftyCard{
+    width: 800px;
+    height: 70vh;
+    background-color: rgba(12, 12, 12, 0.466);
+    border:none;
+    margin-bottom: 10%;
+    border-radius: 10rem;
+}
+.leftyCardss{
+    width: 800px;
+    height: 80vh;
+    background-color: rgba(12, 12, 12, 0.466);
+    border:none;
+    margin-bottom: 10%;
+    border-radius: 10rem;
+}
+
+.rightyCard{
+    width:900px;
+    height: 90vh;
+    background-color: rgba(34, 34, 84, 0.32);
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .cards .red {
+    background-color: #f43f5e;
+  }
+  
+  .cards .blue {
+    background-color: #3b82f6;
+  }
+  
+  .cards .green {
+    background-color: #22c55e;
+  }
+  
+  .cards .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100px;
+    width: 250px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .cards .card p.tip {
+    font-size: 1em;
+    font-weight: 700;
+  }
+  
+  .cards .card p.second-text {
+    font-size: .7em;
+  }
+  
+  .cards .card:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  .cards:hover > .card:not(:hover) {
+    filter: blur(10px);
+ /*    transform: scale(0.9, 0.9); */
+  }
+
+
+  .check-icon {
+    color: #fff;
+    background-color: #00ff00; /* Bright green */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 0 auto 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    }
+    50% {
+        transform: scale(1.1);
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    }
+}
+
+
+.tran-id{
+  margin: 2%;
+  font-size: 18px;
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.rainbow-background {
+  background: linear-gradient(90deg, white, indigo);
+  background-size: 100% 100%; /* Adjust this to make the gradient span the full width */
+  animation: rainbow 8s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+}
+
+.glow-text {
+  
+  
+  text-shadow: 0 0 4px rgb(127, 207, 255), /* First glow */
+               
+               0 0 1px rgb(127, 207, 255); /* Third glow */
+}
