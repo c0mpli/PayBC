@@ -11,6 +11,8 @@ import "../../style/Sound2.css";
 import QR from "../../../assets/QR.png";
 import { useRouter } from "next/navigation";
 import axios from "axios";
+import QRCode from "react-qr-code";
+
 export default function Page() {
 	const [eventData, setEventData] = useState<{
 		from: string;
@@ -176,7 +178,9 @@ export default function Page() {
 					<Card className="leftyCardss">
 						<Card className="leftyCard">
 							<div>
-								<Image src={QR.src} alt="QR" width={200} height={200} />
+								<QRCode
+									value={`https://metamask.app.link/send/pay-${accountName}`}
+								/>{" "}
 							</div>
 							<div
 								style={{
